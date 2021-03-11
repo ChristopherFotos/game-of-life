@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game-of-life.css">
+    <title>gridGraph Demo</title>
+</head>
+<body>
+
+    <button class="control" id='help' data-control='help'>Help</button>
+
+    <div class="control-panel">
+
+        <button class="control go" id='play' data-control='play'></button>
+        <button class="control go" id='skip' data-control='skip'>
+            <img src="./images/skip.svg" alt="" class="playimg">
+        </button>
+        <button class="control go" data-control='clear'> Clear </button>
+    </div>
+
+</body>
+
+
+<script src="./lib/Cell.js"></script>
+<script src="./lib/Column.js"></script>
+<script src="./lib/Board.js"></script>
+<script src="./behavior/gameOfLife.js"></script>
+<script src="app.js"></script>
+<script src="./scripts/help-modal.js"></script>
+<script src="controls/controls.js"></script>
+
+
+
+</html>

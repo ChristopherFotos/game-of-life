@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+}
+
+
+.cell {
+    transition: all 0.1s ease-in-out;
+    /* background-color: #101010; */
+    /* box-shadow: inset 0px 0px 1px 0px rgba(48, 50, 58, 0.3); */
+    border-radius: 100px;
+    /* border: 1px solid #191919; */
+    /* margin: 2px; */
+}
+
+.a {
+    background-color: #D3FFF3;
+    box-shadow: 3px 0px 40px 0px rgba(211,255,243,1);
+    z-index: 10;
+}
+
+
+
+.cell:hover {
+    box-shadow: inset 0px 0px 7px 0px rgba(100, 100, 255, 0.5);
+    z-index: 10;
+    transition: all 0.1s;
+}
+
+
+
+
+
+
